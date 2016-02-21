@@ -13,6 +13,9 @@
 		A1BA13D81C7A001300A68F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BA13D61C7A001300A68F12 /* Main.storyboard */; };
 		A1BA13DA1C7A001300A68F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BA13D91C7A001300A68F12 /* Assets.xcassets */; };
 		A1BA13DD1C7A001300A68F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BA13DB1C7A001300A68F12 /* LaunchScreen.storyboard */; };
+		A1BA13E61C7A02F900A68F12 /* MMAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA13E51C7A02F900A68F12 /* MMAlertViewManager.m */; };
+		A1BA13EA1C7A052600A68F12 /* MMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BA13E81C7A052600A68F12 /* MMDetailViewController.m */; };
+		A1BA13EB1C7A052600A68F12 /* MMDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BA13E91C7A052600A68F12 /* MMDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		A1BA13D91C7A001300A68F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BA13DC1C7A001300A68F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BA13DE1C7A001300A68F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BA13E41C7A02F900A68F12 /* MMAlertViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAlertViewManager.h; sourceTree = "<group>"; };
+		A1BA13E51C7A02F900A68F12 /* MMAlertViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAlertViewManager.m; sourceTree = "<group>"; };
+		A1BA13E71C7A052600A68F12 /* MMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDetailViewController.h; sourceTree = "<group>"; };
+		A1BA13E81C7A052600A68F12 /* MMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDetailViewController.m; sourceTree = "<group>"; };
+		A1BA13E91C7A052600A68F12 /* MMDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,11 @@
 				A1BA13DB1C7A001300A68F12 /* LaunchScreen.storyboard */,
 				A1BA13DE1C7A001300A68F12 /* Info.plist */,
 				A1BA13CD1C7A001300A68F12 /* Supporting Files */,
+				A1BA13E41C7A02F900A68F12 /* MMAlertViewManager.h */,
+				A1BA13E51C7A02F900A68F12 /* MMAlertViewManager.m */,
+				A1BA13E71C7A052600A68F12 /* MMDetailViewController.h */,
+				A1BA13E81C7A052600A68F12 /* MMDetailViewController.m */,
+				A1BA13E91C7A052600A68F12 /* MMDetailViewController.xib */,
 			);
 			path = "Master Detail";
 			sourceTree = "<group>";
@@ -139,6 +152,7 @@
 				A1BA13DD1C7A001300A68F12 /* LaunchScreen.storyboard in Resources */,
 				A1BA13DA1C7A001300A68F12 /* Assets.xcassets in Resources */,
 				A1BA13D81C7A001300A68F12 /* Main.storyboard in Resources */,
+				A1BA13EB1C7A052600A68F12 /* MMDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +166,8 @@
 				A1BA13D51C7A001300A68F12 /* ViewController.m in Sources */,
 				A1BA13D21C7A001300A68F12 /* AppDelegate.m in Sources */,
 				A1BA13CF1C7A001300A68F12 /* main.m in Sources */,
+				A1BA13EA1C7A052600A68F12 /* MMDetailViewController.m in Sources */,
+				A1BA13E61C7A02F900A68F12 /* MMAlertViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
